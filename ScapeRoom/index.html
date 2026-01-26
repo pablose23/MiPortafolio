@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASBIOCAM - SISTEMA COMPROMETIDO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="status-header">SISTEMA COMPROMETIDO <br><span style="font-size: 0.5em; opacity: 0.8;">ASBIOCAM DATACENTER</span></h1>
+        
+        <div class="timer-box">
+            <div id="timer">45:00</div>
+            <div class="timer-label">TIEMPO PARA BORRADO TOTAL</div>
+        </div>
+
+        <div class="message-box" id="main-message">
+            <!-- Texto inyectado por JS -->
+        </div>
+
+        <div class="input-section" id="input-section">
+            <p>> Ingrese clave de desencriptación:</p>
+            <div class="input-group">
+                <input type="text" id="key-input" placeholder="Clave Maestra..." autocomplete="off">
+                <button id="decrypt-btn">DESENCRIPTAR</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pistas Ocultas en el código -->
+    <!-- PISTA 1: A veces la clave está donde todo comienza... mira en science_history.log (mentira, prueba NOBEL2026) -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
