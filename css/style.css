@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "nunito";
+    src: url(./../assets/fonts/NunitoSans-Regular.ttf);
+}
+
+body{
+    font-family: "nunito";
+}
+
+.container{
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+/* Apartado Header */
+
+.header{
+    width:100%;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__logo{
+    padding: 0.55em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__letra{
+    color: #ffa501;
+    font-size: 1.15em;
+    font-weight: bold; 
+}
+
+.header__titulo{
+    color: white;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+nav{
+   width: 600px;
+}
+
+.nav__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__items{
+    list-style: none;
+}
+
+.nav__links{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__links:hover{
+    text-decoration: none;
+    color: #ffa501;
+}
+
+.iconos{
+    width: 100px;
+}
+
+.fa-user, .fa-search{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.fa-user:hover, .fa-search:hover{
+    color: #ffa501;
+    letter-spacing: 5px;
+}
+
+/* Apartado cuerpo */
+
+.video{
+    max-width: 1200px;
+    position: relative;
+}
+
+.video__titulo {
+    position: absolute;
+    top: 35%;
+    left: 350px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.video__subtitulo{
+    position: absolute;
+    top: 45%;
+    left: 300px;
+    color: #fff;
+    font-weight: bold;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+/* Apartado footer */
+
+.footer{
+    width: 100%;
+    background-color: #333333;
+    z-index: 10;
+}
+
+.footer__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.nosotros{
+    max-width: 500px;
+    flex: 1 1 250px;
+}
+
+.sucursales, .enlaces, .siguenos{
+    max-width: 200px;
+    flex: 1 1 200px;
+}
+
+.footer__titulos{
+    font-style: italic;
+    border-bottom: 0.5px solid #ffa501;
+    color: #ffa501;
+}
+
+.footer__texto{
+    color: #ffa501;
+}
+
+.siguenos__list, .sucursales__list, .enlaces__list{
+    padding: 0;
+}
+
+.siguenos__items, .sucursales__items, .enlaces__items{
+    list-style: none;
+}
+
+.siguenos__links, .sucursales__links, .enlaces__links{
+    text-decoration: none;
+    color: #ffa501;
+}
+
+.siguenos__links:hover, .sucursales__links:hover, .enlaces__links:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: #ffa501;
+}
+
+.informatica{
+    color: #ffa501;
+    font-style: italic;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
