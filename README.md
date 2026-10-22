@@ -91,7 +91,7 @@ _Próximamente._
 ## 🗂️ Asignaturas
 
 - **1.º (DAM1):** Programación, Lenguaje de marcas.
-- **2.º (DAM2):** Acceso a Datos, Android, Desarrollo de Interfaces, Programación de Servicios y Procesos (PSP).
+- **2.º (DAM2):** Android, Desarrollo de Interfaces.
 
 ## 🔎 Cómo ver un proyecto
 
@@ -194,7 +194,7 @@ _Coming soon._
 ## 🗂️ Subjects
 
 - **Year 1 (DAM1):** Programming, Markup Languages.
-- **Year 2 (DAM2):** Data Access, Android, User Interface Development, Multithreading and Processes (PSP).
+- **Year 2 (DAM2):** Android, User Interface Development.
 
 ## 🔎 Viewing a project
 
