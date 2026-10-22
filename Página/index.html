@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <title>No repetir....</title>
+</head>
+
+
+<body>
+  <div class="container" id="contenedor">
+
+    <header class="header">
+      <h1 id="header_title" class="header__title">Juego de las Imágenes</h1>
+    </header>
+
+
+    <!-- --------------CONFIGURADOR------------------------------- -->
+    <main id="configurador" class="config">
+      <!-- Contenedor número cartas, tiempo juego y nivel ayuda -->
+      <section class="configuracion">
+
+        <!-- Configuracion de numero de cartas con que se va a jugar-->
+        <section id="config_num" class="config-num">
+          <h2 class="config-num__title">Número de cartas:</h2>
+          <select id="select_num" class="config-num__body">
+            <option value="" selected disabled>Selecciona un valor</option>
+
+            <!-- AQUÍ AÑADIMOS LOS NÚMMEROS DE CARTAS -->
+            <!-- <option value="10">10 Cartas</option> -->
+
+          </select>
+        </section>
+
+        <!--Configuaracion del tiempo de juego-->
+        <section id="config_time" class="config-time">
+          <!-- Para hacer aparecer y desaparecer la capa ayuda-->
+          <h2 class="config-time__title">Tiempo de juego:</h2>
+          <select id="select_time" class="config-num__body">
+            <option selected disabled>Selecciona un valor</option>
+
+            <!-- AQUÍ AÑADIMOS LOS TIEMPOS DE JUEGO -->
+            <!-- <option value="10">10 Segundos</option> -->
+
+          </select>
+        </section>
+
+        <!--Configuaracion del nivel de ayuda del usuario-->
+        <section id="config_help" class="config-help">
+          <!-- Para hacer aparecer y desaparecer la capa ayuda-->
+          <h2 class="config-help__title">Nivel de ayuda:</h2>
+          <select id="select_help" class="config-num__body">
+            <option selected disabled>Selecciona un valor</option>
+
+            <!-- AQUÍ AÑADIMOS LOS NIVELES DE AYUDA -->
+            <!-- <option value="alto">Alto</option> -->
+
+          </select>
+        </section>
+      </section>
+
+      <!-- Configuracion de la imagen de la carta con la que se va a jugar-->
+      <section id="config_card" class="config-card">
+        <h2 class="config-card__title">Selección imagen carta de juego:</h2>
+        <div id="config_card_body" class="config-card__body">
+
+          <!-- AQUÍ AÑADIMOS LAS IMÁGENES DE LAS CARTAS -->
+          <!-- <div class="config-card__card">
+            <img src="./assets/images/cartas/atras1.jpg" class="config-card__img">
+          </div> -->
+        </div>
+      </section>
+
+    </main>
+    <!-- --------------------FIN CONFIGURACION------------------------ -->
+
+
+
+
+    <!-- -----------------------JUEGO--------------------------------- -->
+    <!--Capa donde se van a mostrar las cartas con las que vamos a jugar-->
+    <!-- Para hacer aparecer y desaparecer la capa juego-->
+    <section id="juego" class="juego">
+      <h2 class="juego__title">Selecciona todas las imágenes:</h2>
+      <div id="visor_imagenes_juego" class="juego__container ">
+
+        <!-- AQUÍ AÑADIMOS LAS CARTAS CON LA IMAGEN SELECCIONADA -->
+        <!--<div class="container-carta-juego">
+          <img src="./assets/images/cartas/atras6.jpg" class="img-carta-juego">
+        </div>-->
+      </div>
+    </section>
+    <!-- --------------------------FIN JUEGO------------------------ -->
+
+
+
+
+    <!-- --------------------------FINALIZAR JUEGO------------------------ -->
+    <!--Capa donde se va a mostrar la finalización de la partida-->
+    <!-- Para hacer aparecer y desaparecer la capa finjuego-->
+    <section id="end_game">
+      <div class="finjuego__body">
+        <h2 class="texto-finjuego">Has Finalizado el Juego con Éxito. FELICIDADES!!!</h2>
+      </div>
+    </section>
+    <!-- ----------------------FIN FINALIZAR JUEGO------------------- -->
+
+
+
+    <!-- ----------------------BOTONES------------------- -->
+    <!-- Para los butones-->
+    <footer id="buttons" class="configuracion-buttons">
+      <!-- Para hacer aparecer y desaparecer el boton de jugar y ... -->
+      <button id="btn_validation" class="btn-validation">
+        <span class="texto-boton">Validar Configuración</span>
+      </button>
+      <!-- Para hacer aparecer y desaparecer el boton comporbar y  ... -->
+      <button id="btn_check_game" class="btn_check_game">
+        <span class="texto-boton">Comprobar Juego</span>
+      </button>
+      <button id="btn_new_game" class="btn_new_game">
+        <span class="texto-boton">Otra partida????</span>
+      </button>
+    </footer>
+    <!--fin del pie-->
+    <!-- ----------------------FIN BOTONES-------------------------- -->
+  </div>
+  <!-- Fin del container -->
+  <script src="js/script.js "></script>
+</body>
+
+</html>
