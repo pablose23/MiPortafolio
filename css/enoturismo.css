@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.titulos {
+    color: #8b0000;
+    font-size: 1.85rem;
+    font-family: 'semper';
+    font-variant: small-caps;
+}
+
+.textos {
+    color: #803030;
+    font-size: 1.05rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #8b0000;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    color: #8b0000;
+    text-align: center;
+    background-color: #f5f5dc;
+}
+
+th {
+    border: 1.5px solid #8b0000;
+    padding: 1rem;
+}
+
+.filauno {
+    background-color: #924949;
+    color: #f5f5dc;
+}
+
+td {
+    border: 1.5px solid #8b0000;
+    padding: 1rem;
+}
+
+.texto_tabla {
+    width: 300px;
+}

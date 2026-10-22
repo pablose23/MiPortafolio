@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.titulo_main {
+    margin-top: 0;
+    font-family: "semper";
+    text-align: center;
+    color: #8B0000;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cajas_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.caja_main {
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 250px;
+    padding: 1.2rem;
+    
+}
+
+.fotos_main {
+    width: 400px;
+    height: 225px;
+    border-radius: 1rem;
+}
+
+.textos_main {
+    color: #803030;
+    width: 400px;
+    text-align: justify;
+}
+.viñedo{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.ajuste_viñedo{
+    border-radius: 5px;
+    height: 500px;
+    width: 750px;
+}
