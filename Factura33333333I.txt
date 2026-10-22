@@ -1,0 +1,11 @@
+Factura: 3000_33333333I
+Cliente: 33333333I
+************Productos*************
+	Guayabas	4.88€/Kg	2.0Kg 
+
+	Chirimoya	5.44€/Kg	3.0Kg 
+
+				 TOTAL: 26.08€
+				 IVA: 1.0432€
+				 Descuento 0.0€
+				 IMPORTE TOTAL: 27.123199999999997€
