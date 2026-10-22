@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CDN font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <!-- Fuente Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Nunito:wght@200&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Cursos Ribera...</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu_izq">
+            <img class="img_menu" src="./assets/images/pic-1.jpg">
+            <h1 class="titulo_menu">Pepito DAM</h1>
+            <h2 class="subtitulo_menu">Estudiante</h2>
+            <a class="boton_menu" href="#">Ver Perfil</a>
+            <nav class="menu">
+                <ul class="menu_lateral">
+                    <li class="menu_lateral">
+                        <div class="iconos"><i class="fas fa-home"></i></div>Home
+                    </li>
+                    <li class="menu_lateral">
+                        <div class="iconos"><i class="fas fa-question"></i></div>Nosotros
+                    </li>
+                    <li class="menu_lateral">
+                        <div class="iconos"><i class="fas fa-graduation-cap"></i></div>Cursos
+                    </li>
+                    <li class="menu_lateral">
+                        <div class="iconos"><i class="fas fa-chalkboard-user"></i></div>Profesores
+                    </li>
+                    <li class="menu_lateral">
+                        <div class="iconos"><i class="fas fa-headset"></i></div>Contacto
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="barra_arriba">
+            <article class="titulo_cuerpo">
+                <h3 class="cursos">
+                    Cursos
+                </h3>
+                <h3 class="ribera">
+                    Ribera
+                </h3>
+            </article>
+            <article class="caja_busqueda">
+                <form>
+                    <input class="busqueda" type="text" name="busqueda" placeholder="Busqueda de cursos" />
+                </form>
+                <div class="boton_busqueda">
+                    <button class="fas fa-search"></button>
+                </div>
+            </article>
+            <article class="iconos_arriba">
+                <a class="fondo_icono" href=""><i class="fas fa-bars"></i></a>
+                <a class="fondo_icono" href=""><i class="fas fa-user"></i></a>
+                <a class="fondo_icono" href=""><i class="fas fa-sun"></i></a>
+            </article>
+        </section>
+        <section class="cuerpo">
+            <section class="telf">
+                <i class="fas fa-phone"></i>
+                <p class="telefono">
+                    Teléfonos
+                </p>
+                <p class="telefonos">
+                    925722233
+                </p>
+                <p class="telefonos">
+                    925804375
+                </p>
+            </section>
+            <section class="email">
+                <i class="fas fa-envelope"></i>
+                <p class="correo">
+                    Correo Electrónico
+                </p>
+                <p class="correos">
+                    direccion@ribera.es
+                </p>
+                <p class="correos">
+                    jefatura@ribera.es
+                </p>
+            </section>
+            <section class="address">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="direccion">
+                    Office address
+                </p>
+                <p class="direcciones">
+                    Av Real Fábrica de Seda s/n
+                </p>
+                <p class="direcciones">
+                    45600 Talavera de la Reina Toledo
+                </p>
+            </section>
+            <form class="formulario">
+                <div class="separacion">
+                    <input class="forms" type="text" name="nombre" placeholder="Nombre" />
+                    <input class="forms" type="text" name="apellidos" placeholder="Apellidos" />
+                    <input class="forms" type="text" name="direccion" placeholder="Direccion" />
+                    <input class="forms" type="text" name="telefono" placeholder="Telefono" />
+                    <input class="forms" type="email" name="Correo" placeholder="Correo" />
+                </div>
+                <div class="separacion1">
+                    <input class="forms" type="text" name="usuario" placeholder="Usuario" />
+                    <input class="forms" type="password" name="contraseña" placeholder="Contraseña" />
+                    <input class="forms" type="date" name="fecha" />
+                    <textarea class="forms" name="caracteristicas" cols="47" rows="7"
+                        placeholder="Caracteristicas..."></textarea>
+                </div>
+                <div>
+                    <input class="enviar" type="submit" name="enviar" value="Enviar" />
+                </div>
+            </form>
+            <section class="map">
+                <iframe class="map__iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3636953456594!2d-4.839214648211599!3d39.95562057932047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd401c717cef78c9%3A0xe80e353d605fae33!2sI.E.S.%20Ribera%20del%20Tajo!5e0!3m2!1ses!2ses!4v1676992082211!5m2!1ses!2ses"
+                    width="930" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
