@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/login.css">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Login</title>
+</head>
+<!--Cambio de lugar del id-->
+<body id="inicio">
+    <header class="header">
+        <div class="header__container">
+            <section class="header__logo">
+                <h1>
+                    <a href="./../index.html" class="header__titulo">
+                        <span class="header__letra">PerrosGatos</span>Felices
+                    </a>
+                </h1>
+            </section>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__items"><a class="nav__links" href="./../pages/catalogo.html">Catálogo</a></li>
+                    <li class="nav__items"><a class="nav__links" href="./../pages/informacion.html">Información</a></li>
+                    <li class="nav__items"><a class="nav__links" href="#">Login</a></li>
+                    <li class="nav__items"><a class="nav__links" href="./../pages/nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+            <section class="iconos">
+                <a href="#" class="iconos__icono"><i class="fas fa-user iconos__icono"></i></a>
+                <a href="#mapa" class="iconos__icono"><i class="fa-solid fa-location-dot"></i></a>
+            </section>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="titulo_form">
+            <!--He cambiado los i por p-->
+            <div class="titulo_form_cont">
+                <p class="registro">R</p>
+                <p class="registro">E</p>
+                <p class="registro">G</p>
+                <p class="registro">I</p>
+                <p class="registro">S</p>
+                <p class="registro">T</p>
+                <p class="registro">R</p>
+                <p class="registro">O</p>
+            </div>
+
+            <div class="titulo_form_cont">
+                <p class="registro">D</p>
+                <p class="registro">E</p>
+            </div>
+
+            <div class="titulo_form_cont">
+                <p class="registro">M</p>
+                <p class="registro">A</p>
+                <p class="registro">S</p>
+                <p class="registro">C</p>
+                <p class="registro">O</p>
+                <p class="registro">T</p>
+                <p class="registro">A</p>
+            </div>
+        </h2>
+        
+        <div class="flex_container">
+            <img class="img_gatos" src=".././assets/images/login/Gato.jpg" alt="Gato">
+            <form class="form_gatos">
+                <!-- Sección de datos de la mascota -->
+                 <!-- Parte de BDD hay que poner los max y min de los campos de caracteres -->
+                <label for="Nombre">Nombre Completo</label>
+                <input class="input" type="text" required placeholder="Nombre completo">
+
+                <label for="Correo_electronico">Correo electrónico</label>
+                <input class="input" type="email" required placeholder="Correo electrónico">
+
+                <label for="Password">Contraseña</label>
+                <input class="input" type="password" required placeholder="Contraseña">
+
+                <label for="Password"> Confirmar Contraseña</label>
+                <input class="input" type="password" required  placeholder=" Confirmar Contraseña">
+                <!-- Botón de envío -->
+                <div class="enviar_container">
+                    <input class="enviar" type="submit" name="enviar" value="Registrar Ahora ">
+                </div>
+            </form>
+        </div>
+        <a class="botonsubir" href="#inicio"><i class="fa-solid fa-paw fa-2xl"></i></a>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <section class="nosotros">
+                <h3 class="footer__titulos">
+                    Sobre Nosotros
+                </h3>
+                <article class="footer__texto">
+                    En GatosPerrosFelices, nos preocupamos por el bienestar de tu mascota. Encuentra productos de calidad, ofertas exclusivas y el mejor servicio. Contáctanos para más información. Síguenos en redes sociales y descubre nuestras novedades. ¡Gracias por confiar en nosotros!
+                </article>
+            </section>
+            <section class="enlaces">
+                <h3 class="footer__titulos">
+                    Enlaces Rápidos
+                </h3>
+                <article class="footer__texto">
+                    <ul class="enlaces__list">
+                        <li class="enlaces__items"><a class="enlaces__links" href="./../index.html">Inicio</a></li>
+                        <li class="enlaces__items"><a class="enlaces__links">Catálogo</a></li>
+                        <li class="enlaces__items"><a class="enlaces__links" href="./informacion.html">Información</a></li>
+                        <li class="enlaces__items"><a class="enlaces__links" href="./login.html">Login</a></li>
+                        <li class="enlaces__items"><a class="enlaces__links" href="./nosotros.html">Nosotros</a></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="siguenos">
+                <h3 class="footer__titulos">
+                    Síguenos
+                </h3>
+                <article class="footer__texto">
+                    <ul class="siguenos__list">
+                        <li class="siguenos__items"><a class="siguenos__links" href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                        <li class="siguenos__items"><a class="siguenos__links" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li class="siguenos__items"><a class="siguenos__links" href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

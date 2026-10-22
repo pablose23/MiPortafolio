@@ -1,0 +1,117 @@
+.titulo_form {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Contenedor flexible para organizar elementos en fila y permitir envoltura */
+.flex_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 1rem;
+}
+
+/* Estilos para la imagen de gatos */
+.img_gatos {
+    width: 400px;
+    height: 400px;
+}
+
+/* Estilos para el formulario de gatos */
+.form_gatos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    height: 400px;
+}
+
+/* Espaciado adicional para la clase 'titulo_form_cont' */
+.titulo_form_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los campos de entrada */
+
+label{
+    margin-top: 10px;
+    color: #e39a15;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px solid #e39a15; /* Color naranja */
+    padding: 15px;
+    padding-left: 3px;
+    outline: 0;
+}
+
+input:focus{
+    border: 1px solid #e39a15;/* Color naranja */
+    padding: 15px;
+    padding-left: 3px;
+    border-radius: 5px;
+    outline: 0;
+    font-weight: bold;
+}
+
+input::placeholder{
+    border: 0;
+    border-bottom: 1px solid #e39a15; /* Color naranja */
+    padding: 15px;
+    padding-left: 3px;
+    outline: 0;
+}
+
+/* Estilos para los íconos */
+/*He cambiado el i por class registro*/
+.registro {
+    font-family: monospace;
+    background-color: #fbedd4; /* Color crema */
+    color: #ecb349; /* Color dorado */
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* Botón de envío con estilos personalizados */
+.enviar {
+    width: 300px;
+    padding: 10px;
+    background-color: #e39a15; /* Naranja oscuro */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.enviar:hover{
+    width: 300px;
+    padding: 10px;
+    background-color: #fff; /* Naranja oscuro */
+    color: #e39a15;
+    border: 1px solid #e39a15;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* Contenedor del botón de envío para centrarlo */
+.enviar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

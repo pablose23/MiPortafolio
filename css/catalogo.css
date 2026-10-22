@@ -1,0 +1,112 @@
+
+/* Apartado del titulo del catalago y parrafo */
+
+.container__titulo{
+    font-weight: bold;
+}
+
+.container__nombreempresa{
+    color: #FEC601;
+    font-weight: bold;
+}
+.container__nombreempresaFelizes{
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+
+/*Añado la clase nueva enlaces__enlace*/
+.enlaces__enlace{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+/*Se añade un gap para colocar el enlace__producto*/
+.enlaces__productos{
+    gap: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    min-height: 110px;
+    margin-bottom: 20px;
+}
+/*Se cambia a bloque para que reaccione el cuadro entero en vez de solo al pasar por el enlace o imagen*/
+.enlace__producto{
+    display: block;
+    border: solid 1px #FEC601;
+    border-radius: 2px;
+    text-align: center;
+    flex: 1 1 150px;
+}
+
+.enlace__producto:hover{
+    display: block;
+    border: solid 1px #FEC601;
+    border-radius: 2px;
+    text-align: center;
+    flex: 1 1 150px;
+    font-size: larger;
+}
+
+.enlaces__img{
+    color: #FEC601;
+    text-decoration: none;
+}
+
+.enlaces__titulo2{
+    text-decoration: none;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+/* Productos mas vendidos */
+
+.contenedor_productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.producto {
+   
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #FEC601;
+    border-radius: 15px;
+
+    flex: 1 1 250px;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.producto h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 14px;
+    color: #333;
+}
+
+button {
+    background-color: #FEC601;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+

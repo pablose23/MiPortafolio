@@ -1,0 +1,39 @@
+.box
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.box_img
+{
+    flex: 1 1 375px;
+    max-width: auto;
+    object-fit: contain;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.box_img-img
+{
+    max-width: 100%;
+}
+.box_text
+{
+    flex: 1 1 375px;
+    max-width: auto;
+    margin: 0;
+    padding: 10px 15px;
+    background-color: #FFDEAD;
+    border-top: 3px solid #FF8C42;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_title
+{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,111 @@
+/* Apartado cuerpo */
+
+.main{
+    padding: 1em;
+}
+
+.sobrenosotros{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.sobrenosotros__img{
+    object-fit: cover;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.sobrenosotros__box{
+    position:relative;
+    max-width: 500px;
+    max-height: 250px;
+    top: 75px;
+    left: -150px;
+    background-color: #ffdead;
+    padding: 1rem;
+    border-bottom: 10px solid #545f66;
+}
+
+.sobrenosotros__titulo{
+    font-size: 2em;
+}
+
+.info__titulo{
+    font-size: 1.7em;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.contacto__img{
+    max-width: 400px;
+    max-height: 350px;
+    flex: 1 1 200px;
+}
+
+.contactonosotros{
+    max-width: 350px;
+    padding: 1rem;
+    border-left: 1px solid #545f66;
+    flex: 1 1 200px;
+}
+
+.contactonosotros__titulo{
+    font-size: 1.5rem;
+}
+
+.navcontacto{
+    max-width: 350px;
+    border-left: 1px solid #545f66;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    flex: 1 1 200px;
+}
+
+.navcontacto__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.navcontacto__items{
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    padding-top: 0;
+    border-bottom: 2px solid #545f66;
+}
+
+.navcontacto__links{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.navcontacto__links:hover{
+    text-decoration: underline;
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.fa-x-twitter:hover{
+    text-decoration: underline;
+}
+
+.fa-instagram, .fa-phone, .fa-envelope{
+    margin-right: 5px;
+}
+
+.mapa__titulo{
+    font-size: 1.25em;
+}
+

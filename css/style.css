@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./../assets/fuentes/Poppins-Light.ttf);
+}
+
+body{
+    font-family: "poppins";
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+/* Apartado Header */
+
+.header{
+    max-width:100%;
+    background-color: #FF8C42;
+    position: sticky;
+    top: 0px;
+    z-index: 25;
+}
+
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header__logo{
+    height: 50px;
+    padding: 0.55em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.15em;
+}
+
+.header__letra{
+    color: #fff;
+    font-weight: bold; 
+}
+
+.header__titulo{
+    color: #ffdead;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header__titulo:hover
+{
+    color: #fff;
+    .header__letra
+    {
+        color: #ffdead;
+    }
+}
+
+nav{
+   width: 600px;
+   min-height: 50px;
+}
+
+.nav__list{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav__items{
+    list-style: none;
+    
+}
+
+.nav__links{
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+.nav__links:hover{
+    text-decoration: none;
+    color: #FDFAEC;
+}
+
+.iconos{
+    max-width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-user, .fa-location-dot{
+    color: #FDFAEC;
+}
+
+.fa-user:hover, .fa-location-dot:hover{
+    color: #ffdead;
+}
+
+/* Apartado footer */
+
+.footer{
+    max-width: 100%;
+    background-color: #FF8C42;
+}
+
+.footer__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.nosotros{
+    max-width: 500px;
+    flex: 1 1 250px;
+}
+
+.sucursales, .enlaces, .siguenos{
+    max-width: 200px;
+    flex: 1 1 200px;
+}
+
+.footer__titulos{
+    font-style: italic;
+    font-weight: normal;
+    border-bottom: 0.5px solid #FFDEAD;
+    color: #FFDEAD;
+}
+
+.footer__texto{
+    color: #333333;
+}
+
+.siguenos__list, .sucursales__list, .enlaces__list{
+    padding: 0;
+}
+
+.siguenos__items, .sucursales__items, .enlaces__items{
+    list-style: none;
+}
+
+.siguenos__links, .sucursales__links, .enlaces__links{
+    text-decoration: none;
+    color: #333333;
+}
+
+.siguenos__links:hover, .sucursales__links:hover, .enlaces__links:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color: #FFDEAD;
+}
+
+/* Boton subir */
+
+.botonsubir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #FFDEAD;
+    padding: 1rem;
+    width: 80px;
+    height: 75px;
+    position: sticky;
+    bottom: 20px;
+    text-decoration: none;
+    color: #333333;
+    left: 100%;
+}
+
+a:active {
+    color: #FEC601;
+}
