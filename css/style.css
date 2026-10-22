@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.titulos{
+    font-style: italic;
+    font-weight: bold;
+}
+.label_titulos{
+    font-weight: bold;
+}
+.nombre_apellidos{
+    display:flex;
+    width: 100%;
+    gap: 100px;
+}
+.nombre{
+    display: flex;
+    gap: 50px;
+}
+.apellidos{
+    display: flex;
+    gap: 50px;
+}
+.curso{
+    display: flex;
+    gap: 64.5px; 
+}
+.grupo{
+    display: flex;
+    gap: 68px;
+}
+.curso_grupo{
+    display:flex;
+    width: 100%;
+    gap: 100px;
+}
+.domicilio_web{
+    display:flex;
+    width: 100%;
+    gap: 100px;
+}
+.domicilio{
+    display:flex;
+    gap: 40px;
+}
+.web{
+    display: flex;
+    gap: 77px;
+}
+.persas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+}
+.der{
+    margin-right: 200px;
+}
