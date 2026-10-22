@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    max-width: 1100px;
+    display: inline-block;
+}
+
+.cabecera {
+    text-align: right;
+    background-image: url(../assets/images/inicio/logo2.jpg);
+    background-size: 360px 50px;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+ol {
+    list-style-type: none;
+}
+.menu {
+   /*  border: 1px solid red; */
+    text-align: center; 
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3.5%;
+    color: #3033be;
+}
+.enlace1{
+    text-decoration: none;
+    color: #3033be;
+}
+.enlace1:hover{
+    font-weight: bold;
+}
+.cuerpo{
+    padding: 10px;
+}
+.cajon1{
+    background-color: #ffdd9f;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #3033be;
+    font-size: 12px;
+}
+.cajon2{
+    text-align: center;
+    padding: 10px;
+    color:#585abd;
+}
+.ubi{
+    background-image: url(./../assets/images/inicio/ubi.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 12px;
+    font-weight: bold;
+    width: 365px;
+    display: inline-block;
+    padding-bottom: 3.5px;
+}
+.ajustefoto1{
+    width: 800px;
+    height: 400px;
+}
+.enlace2{
+    text-decoration: none;
+    color: #3033be;
+    font-style: italic;
+}
+.enlace2:hover{
+    text-decoration: underline;
+}
+.cajon4{
+
+    padding: 10px;
+
+}
+.caja1, .caja2, .caja3, .caja4, .caja5{
+    width: 200px;
+    color: #585abd;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.ajustefoto2{
+
+    width: 90px;
+    height: 70px;
+}
+.pie{
+    background-color: #feefd3;
+    background-image: url(../assets/images/inicio/logo.jpg);
+    background-size: 190px 180px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    color: #585abd;
+    padding: 15px;
+    max-width: 100%;
+    
+}
+.enlace3{
+    text-decoration: none;
+    color: #585abd;
+}
+.enlace3:hover{
+    text-decoration: underline;
+}

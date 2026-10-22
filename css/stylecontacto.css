@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cabecera {
+    background-image: url(../assets/images/contacto/logo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 50px;
+    background-position: 0%;
+    height: 180px;
+    text-align: right;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3.5%;
+    color: #3033be;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #3033be;
+}
+
+.enlace:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+.cuerpo {
+    padding: 10px;
+}
+
+.caja1 {
+    background-color: #ffdd9f;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.titulo {
+    color: #3033be;
+}
+
+.subtitulo {
+    color: #585abd;
+}
+.caja2{
+    background-color: rgba(255, 221, 159, 0.20);
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+.caja3 {
+    padding: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+.caja4{
+    text-align: center;
+    padding: 10px;
+    color:#585abd;
+}
+.ubi{
+    background-image: url(./../assets/images/contacto/ubi.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 12px;
+    font-weight: bold;
+    width: 365px;
+    display: inline-block;
+    padding-bottom: 3.5px;
+}
+.ajustefoto1{
+    width: 800px;
+    height: 400px;
+}
+.enlace2{
+    text-decoration: none;
+    color: #3033be;
+    font-style: italic;
+}
+.enlace2:hover{
+    text-decoration: underline;
+}
+.pie {
+    background-color: #feefd3;
+    background-image: url(../assets/images/contacto/logo.jpg);
+    background-size: 190px 180px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    color: #585abd;
+    padding: 15px;
+    max-width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+.cajapie {
+    padding-top: 30px;
+    text-align: center;
+}
+.enlace3 {
+    text-decoration: none;
+    color: #585abd;
+}
+
+.enlace3:hover {
+    text-decoration: underline;
+}
+

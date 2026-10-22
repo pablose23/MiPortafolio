@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor {
+    max-width: 1100px;
+    display: inline-block;
+}
+.cabecera{
+    background-image: url(../assets/images/instalaciones/logo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 360px 50px;
+    background-position: 0%;
+    height: 180px;
+    text-align: right;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 3.5%;
+    color: #3033be;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #3033be;
+}
+
+.enlace:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cuerpo {
+    padding: 10px;
+}
+.caja1{
+    background-color: #ffdd9f;
+    padding: 15px;
+    border-radius: 5px;
+}
+.titulo{
+    color: #3033be;
+}
+.subtitulo{
+   color: #585abd; 
+}
+.cajafotos{
+    padding: 15px;
+}
+.fotos{
+    width: 500px;
+    height: 440px;
+    display: inline-block;
+}
+.ajustefotos{
+    width: 500px;
+    height: 440px;
+    border-radius: 7px;
+}
+.enlace1 {
+    text-decoration: underline;
+    color: #3033be;
+}
+
+.enlace1:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+.cajatextos{
+    padding: 15px;
+}
+.textos{
+    margin-top: 5px;
+    background-color: rgba(255, 221, 159, 0.20);
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.enlace2 {
+    text-decoration: none;
+    font-style: italic;
+    color: #3033be;
+}
+
+.enlace2:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pie{
+    background-color: #feefd3;
+    background-image: url(../assets/images/instalaciones/logo.jpg);
+    background-size: 190px 180px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    color: #585abd;
+    padding: 15px;
+    max-width: 100%;
+    height: 250px;
+}
+.enlace3{
+    text-decoration: none;
+    color: #585abd;
+}
+.enlace3:hover{
+    text-decoration: underline;
+}
+.cajapie{
+text-align: center;
+}
