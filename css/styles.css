@@ -1,0 +1,183 @@
+@font-face {
+  font-family: monserrat;
+  src: url(../assets/fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: monserrat-negrita;
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+body{
+  background-image: url(./../assets/images/fondoindex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.titulo{
+  font-size: 2rem;
+  font-variant: small-caps;
+  color: 
+  rgb(236, 235, 235);
+}
+.cuerpo{
+  display: flex;
+  padding: 3rem;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+.cajas{
+  display: flex;
+  justify-content: space-between;
+}
+.izq{
+  width: 55%;
+  padding: 1rem;
+}
+.der{
+  width: 44%;
+}
+.titulos_label{
+  font-size: 1.4rem;
+  color: rgb(236, 235, 235);
+  font-variant: small-caps;
+}
+.estilo_form{
+  background-color: rgba(255, 255, 255, 0);
+  border-top-style:hidden;
+  border-left-style:hidden;
+  border-right-style:hidden;
+  border-bottom-color: rgb(236, 235, 235);
+  color: rgb(255,108,0);
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.terminos{
+  font-size: 0.8rem;
+  color: rgb(236, 235, 235);
+  text-align: right;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+}
+.registrar{
+  border-color: rgb(255,108,0);
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.registrar:hover{
+  border-color: rgb(255,108,0);
+  background-color: rgb(255,108,0);
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.social{
+  padding-top: 1rem;
+}
+.bttn_fa{
+  background-color: #294697;
+  border-color: #294697;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_fa:hover{
+  background-color: #29469700;
+  border-color: #294697;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_go{
+  background-color: #D65036;
+  border-color: #D65036;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_go:hover{
+  background-color: #d6513600;
+  border-color: #D65036;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_gi{
+  background-color: #120E0F;
+  border-color: #120E0F;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_gi:hover{
+  background-color: #120e0f00;
+  border-color: #120E0F;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_li{
+  background-color: #0373AF;
+  border-color: #0373AF;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_li:hover{
+  background-color: #0373af00;
+  border-color: #0373AF;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_tw{
+  background-color: #2FC6F6;
+  border-color: #2FC6F6;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
+.bttn_tw:hover{
+  background-color: #2fc8f600;
+  border-color: #2FC6F6;
+  color: rgb(236, 235, 235);
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
