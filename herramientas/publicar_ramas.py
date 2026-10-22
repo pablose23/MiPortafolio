@@ -54,13 +54,47 @@ ASIGNATURAS = {
         "marcas": ("Lenguaje de marcas", "lenguaje-marcas"),
     },
     "DAM2": {
-        "datos": ("Acceso a Datos", "acceso-datos"),
         "android": ("Android", "android"),
         "interfaces": ("Desarrollo de Interfaces", "interfaces"),
-        "psp": ("PSP", "psp"),
-        "procesos": ("PSP", "psp"),
     },
 }
+
+# Nombres que NO se publican (exámenes y trabajos con el nombre del alumno).
+EXCLUIR_NOMBRE = re.compile(r"(?i)examen|pablo|sede[nñ]o|fr[ií]as")
+# Contenedores cuyo contenido (un nivel más abajo) son los proyectos reales.
+# (curso, slug de asignatura) -> {carpeta contenedora: sufijo para el nombre}
+CONTENEDORES = {
+    ("DAM1", "programacion"): {"eclipse-workspace": "", "eclipse-workspace-BDD": " BDD"},
+    ("DAM1", "lenguaje-marcas"): {"Ejercicios LM": ""},
+}
+# Desarrollo de Interfaces: solo Actividades/<carpeta con mi nombre>/<proyecto>.
+INTERFACES_CONTENEDOR = "Actividades"
+PREFIJO_NOMBRE = re.compile(r"(?i)^sede[nñ]o[_ ]fr[ií]as?[_ ]pablo[_ ]")
+
+
+def proyectos_de(curso, asig_slug, asig_dir):
+    """Devuelve [(carpeta_proyecto, nombre_publicado)] de una asignatura."""
+    valido = lambda p: (p.is_dir() and p.name not in IGNORAR_DIRS and not p.name.startswith("."))
+    res = []
+    if asig_slug == "interfaces":
+        base = asig_dir / INTERFACES_CONTENEDOR
+        if not base.is_dir():
+            return res
+        for envoltorio in sorted(filter(valido, base.iterdir())):
+            if not PREFIJO_NOMBRE.match(envoltorio.name):
+                continue  # p. ej. Rompecocos suelta: duplicado, fuera
+            for proy in sorted(filter(valido, envoltorio.iterdir())):
+                res.append((proy, PREFIJO_NOMBRE.sub("", proy.name)))
+        return res
+    contenedores = CONTENEDORES.get((curso, asig_slug), {})
+    for hijo in sorted(filter(valido, asig_dir.iterdir())):
+        if hijo.name in contenedores:
+            for proy in sorted(filter(valido, hijo.iterdir())):
+                if not EXCLUIR_NOMBRE.search(proy.name):
+                    res.append((proy, proy.name + contenedores[hijo.name]))
+        elif not EXCLUIR_NOMBRE.search(hijo.name):
+            res.append((hijo, hijo.name))
+    return res
 
 # ---- Qué se copia / qué no -------------------------------------------------
 IGNORAR_DIRS = {
@@ -211,15 +245,14 @@ def cmd_escanear(a):
                 omitidas.append(f"{curso}/{asig_dir.name}")
                 continue
             nombre_asig, asig_slug = match
-            for proy in sorted(p for p in asig_dir.iterdir()
-                               if p.is_dir() and p.name not in IGNORAR_DIRS and not p.name.startswith(".")):
+            for proy, nombre in proyectos_de(curso, asig_slug, asig_dir):
                 av, n_cod = avisos(proy)
                 nuevos.append({
                     "origen": str(proy.relative_to(dam)).replace("\\", "/"),
                     "curso": curso,
                     "asignatura": nombre_asig,
-                    "nombre": proy.name,
-                    "rama": f"{curso.lower()}/{asig_slug}/{slug(proy.name)}",
+                    "nombre": nombre,
+                    "rama": f"{curso.lower()}/{asig_slug}/{slug(nombre)}",
                     "incluir": n_cod > 0,
                     "ia": "no",
                     "descripcion": {"es": "", "en": ""},
