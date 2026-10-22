@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <title>Juego Operaciones</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">
+                Juegos Infantiles Ribera ...
+            </h1>
+            <section class="results" id="resuls">
+                <div class="results__images" id="results_images">
+                    <p class="results__title">Imágenes:</p>
+                    <!-- 
+                    Aquí teneis que añadir la imagen cuando consigue los aciertos
+                    <img class="results__img" src="./images/estrella.png"> -->
+                </div>
+                <div class="results__plus" id="results_plus">
+                    <p class="results__title">Sumar:</p>
+                    <!-- 
+                    Aquí teneis que añadir la imagen cuando consigue los aciertos
+                    <img class="results__img" src="./images/estrella.png"> -->
+                </div>
+
+            </section>
+        </header>
+
+        <hr>
+
+        <main class="main">
+            <section class="selectgame">
+                <button class="selectgame__button selectgame__button--plus" id="selectgame_plus">Juego de las
+                    sumas</button>
+                <button class="selectgame__button selectgame__button--image" id="selectgame_image">Juego de las
+                    Imágenes</button>
+            </section>
+
+
+            <!-- Sumar -->
+            <section class="plus" id="plus">
+                <div id="plus_container_op1">
+                    <input class="plus__inputoperator" type="text" value="0" id="plus_input_op1">
+                    <div class="plus__arrows">
+                        <img class="plus__imgarrow" src="images/arriba.png">
+                        <img class="minus__imgarrow" src="images/abajo.png">
+                    </div>
+                </div>
+
+                <div>
+                    <img class="plus__img" src="images/sumar.png">
+                </div>
+
+                <div id="plus_container_op2">
+                    <input class="plus__inputoperator" type="text" value="0" id="plus_input_op2">
+                    <div class="plus__arrows">
+                        <img class="plus__imgarrow" src="images/arriba.png">
+                        <img class="minus__imgarrow" src="images/abajo.png">
+                    </div>
+                </div>
+
+                <div>
+                    <img id="plus_equal" class="plus__img" src="images/igual.png">
+                </div>
+
+                <div id="plus_container_result">
+                    <input class="plus__inputoperator" type="text" value="0" id="plus_input_result">
+                    <div class="plus__arrows">
+                        <img class="plus__imgarrow" src="images/arriba.png">
+                        <img class="minus__imgarrow" src="images/abajo.png">
+                    </div>
+                </div>
+
+                <div class="">
+                    <img id="plus_valid_result" class="plus__valid " src="images/validar.svg">
+                </div>
+            </section> <!-- Fin de la suma -->
+
+
+
+
+            <!-- Imágenes -->
+            <section class="images" id="images">
+
+                <!-- Imagenes opciones -->
+                <section class="options" id="options">
+                    <img class="options__image" src="./images/flowers.png" alt="visor__image-flowers">
+                    <img class="options__image" src="./images/operators.png" alt="visor__image-operators">
+                    <img class="options__image" src="./images/foods.png" alt="visor__image-foods">
+                    <img class="options__image" src="./images/avatars.png" alt="visor__image-avatars">
+                    
+                    <button class="options__buttonhelp" id="options_button_validate"> Comprobar </button>
+                </section>
+
+                <!-- Visualización de imágenes juego -->
+                <section class="visor" id="visor">
+                    <!-- Aqui tenemos que añadir las imagenes para el juego de las imagenes -->
+
+                    <!-- Este es un ejemplo para las imágenes de array de flores -->
+                    <!--"<img class='visor__image-flowers' src='./images/flowers/"+flowers[pos]+"'/>" -->
+                </section>
+            </section>
+
+
+            <section class="plus__stars" id="plus_stars">
+                <!-- Aquí debes añadir las imagenes de las estrellas que correspondan
+
+                por ejemplo:
+                <img class='plus__img' src='./images/estrella_verde.png'/>-->
+            </section>
+
+
+        </main>
+    </div>
+
+</body>
+<script src="js/script.js "></script>
+</body>
+
+</html>
