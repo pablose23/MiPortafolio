@@ -327,10 +327,17 @@ _(To be documented.)_
 """
 
 
-def copiar(origen, destino):
+def excluido(rel, patrones):
+    """True si la ruta relativa coincide con algún patrón de "excluir" (ruta o nombre)."""
+    ruta = rel.as_posix()
+    return any(fnmatch.fnmatch(ruta, p) or fnmatch.fnmatch(rel.name, p)
+               or ruta.startswith(p.rstrip("/") + "/") for p in patrones)
+
+
+def copiar(origen, destino, excluir=()):
     n = 0
     for rel, p in recorrer(origen):
-        if fichero_ignorado(p.name):
+        if fichero_ignorado(p.name) or excluido(rel, excluir):
             continue
         if p.stat().st_size > MAX_BYTES:
             print(f"      (omitido por tamaño >25MB: {rel})")
@@ -404,6 +411,11 @@ def cmd_publicar(a):
             continue
         if not (e.get("descripcion") or {}).get("es"):
             print("    ! sin descripción (se publicará con texto pendiente)")
+        if a.solo and e["rama"] != a.solo:
+            if rama_existe(repo, e["rama"]):
+                print("    = se conserva (no es la rama indicada en --solo)")
+                publicadas.append(e)
+            continue
         sec = [] if e.get("ignorar_secretos") else buscar_secretos(origen)
         if sec:
             print("    ✗ POSIBLES SECRETOS (revisa y quítalos, o pon \"ignorar_secretos\": true):")
@@ -451,7 +463,7 @@ def crear_rama(repo, e, origen, reemplazar):
         for x in wt.iterdir():
             if x.name != ".git":
                 shutil.rmtree(x, ignore_errors=True) if x.is_dir() else x.unlink()
-        n = copiar(origen, wt)
+        n = copiar(origen, wt, e.get("excluir", []))
         (wt / "README.md").write_text(readme_rama(e), encoding="utf-8")
         git(wt, "add", "-A")
         git(wt, "commit", "-m", f"Añadir {e['nombre']} ({e['asignatura']}, {e['curso']})")
@@ -474,6 +486,7 @@ def main():
     p.add_argument("--ejecutar", action="store_true", help="hacerlo de verdad (por defecto, simulacro)")
     p.add_argument("--subir", action="store_true", help="git push de cada rama y de main")
     p.add_argument("--reemplazar", action="store_true", help="rehacer ramas que ya existen")
+    p.add_argument("--solo", help="procesar solo esta rama (las demás se conservan)")
     p.set_defaults(f=cmd_publicar)
     a = ap.parse_args()
     a.f(a)
