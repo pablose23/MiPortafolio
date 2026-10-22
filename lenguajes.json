@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Java",
+    "publish_date": "1995",
+    "description": "Java is a general-purpose programming language that is class-based and object-oriented. It is designed to have as few implementation dependencies as possible. Java is used for developing Android apps, server apps at financial services industry, in creating web apps."
+  },
+  {
+    "name": "Python",
+    "publish_date": "1991",
+    "description": "Python is an interpreted high-level general-purpose programming language. It emphasizes readability with its notable use of significant indentation. Python is used in web development, artificial intelligence, scientific computing, and data analysis."
+  },
+  {
+    "name": "C++",
+    "publish_date": "1985",
+    "description": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language. It's prevalent in systems software, game development, drivers, client-server applications, and embedded firmware."
+  },
+  {
+    "name": "C#",
+    "publish_date": "2000",
+    "description": "C# is a general-purpose, multi-paradigm programming language that's part of the .Net family from Microsoft. It's used in many Microsoft products and services, including the Windows operating system."
+  },
+  {
+    "name": "Ruby",
+    "publish_date": "1995",
+    "description": "Ruby is an interpreted high-level programming language that emphasizes simplicity and productivity. It is commonly used in web development and other scripting tasks."
+  },
+  {
+    "name": "JavaScript",
+    "publish_date": "1995",
+    "description": "JavaScript is a high-level, interpreted scripting language that conforms to the ECMAScript specification. It is often used to enhance web pages, for server applications and servers, and for developing desktop and mobile applications."
+  },
+  {
+    "name": "PHP",
+    "publish_date": "1995",
+    "description": "PHP is a popular general-purpose scripting language that is especially suited to web development. It is ideal for server-side web development, where PHP generally runs on a web server."
+  },
+  {
+    "name": "Objective-C",
+    "publish_date": "1984",
+    "description": "Objective-C is a general-purpose, object-oriented programming language. It was the main programming language used by Apple for the macOS and iOS operating systems."
+  },
+  {
+    "name": "Swift",
+    "publish_date": "2014",
+    "description": "Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. It is used for developing apps on iOS, macOS, watchOS, and tvOS."
+  },
+  {
+    "name": "Perl",
+    "publish_date": "1987",
+    "description": "Perl is a family of two high-level, general-purpose, interpreted scripting languages. It's widely used for mission-critical projects in the public and private sectors."
+  },
+  {
+    "name": "Rust",
+    "publish_date": "2010"
+  }
+]

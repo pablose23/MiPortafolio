@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Lionel Messi",
+        "edad": "37",
+        "nacionalidad": "Argentino",
+        "club": "Inter Miami",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Cristiano Ronaldo",
+        "edad": "40",
+        "nacionalidad": "Portugués",
+        "club": "Al Nassr",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Neymar Jr.",
+        "edad": "33",
+        "nacionalidad": "Brasileño",
+        "club": "Santos FC",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Kylian Mbappé",
+        "edad": "26",
+        "nacionalidad": "Francés",
+        "club": "Real Madrid",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Kevin De Bruyne",
+        "edad": "34",
+        "nacionalidad": "Belga",
+        "club": "Manchester City",
+        "posición": "Centrocampista"
+    },
+    {
+        "nombre": "Robert Lewandowski",
+        "edad": "36",
+        "nacionalidad": "Polaco",
+        "club": "Barcelona",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Mohamed Salah",
+        "edad": "33",
+        "nacionalidad": "Egipcio",
+        "club": "Liverpool",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Virgil van Dijk",
+        "edad": "34",
+        "nacionalidad": "Neerlandés",
+        "club": "Liverpool",
+        "posición": "Defensa"
+    },
+    {
+        "nombre": "Karim Benzema",
+        "edad": "37",
+        "nacionalidad": "Francés",
+        "club": "Al Ittihad",
+        "posición": "Delantero"
+    },
+    {
+        "nombre": "Sadio Mané",
+        "edad": "33",
+        "nacionalidad": "Senegalés",
+        "club": "Al Nassr",
+        "posición": "Delantero"
+    }
+]
