@@ -2,7 +2,7 @@
 
 🇪🇸 Español · [🇬🇧 English below](#-my-portfolio--dam-english)
 
-Soy estudiante del ciclo **Desarrollo de Aplicaciones Multiplataforma (DAM)**. Este repositorio reúne mis proyectos y prácticas de los dos cursos, organizados para que cualquiera pueda ver qué he hecho y cómo.
+Soy titulado del ciclo **Desarrollo de Aplicaciones Multiplataforma (DAM)**, ya terminado, y ahora estoy cursando el **Curso de Especialización en Inteligencia Artificial y Big Data**. Este repositorio reúne mis proyectos y prácticas de los dos cursos, organizados para que cualquiera pueda ver qué he hecho y cómo.
 
 ## 🌿 Cómo está organizado
 
@@ -105,7 +105,7 @@ git clone --branch dam1/programacion/nombre-del-proyecto --single-branch https:/
 
 # 📁 My portfolio · DAM (English)
 
-I am a student of the **Cross-Platform Application Development (DAM)** vocational degree. This repository gathers my projects and coursework from both years, organised so anyone can see what I built and how.
+I have completed the **Cross-Platform Application Development (DAM)** vocational degree and am now taking the **Specialisation Course in Artificial Intelligence and Big Data**. This repository gathers my projects and coursework from both years, organised so anyone can see what I built and how.
 
 ## 🌿 How it is organised
 
