@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente de la Pg */
+@font-face {
+    font-family: 'Poppinslight';
+    src: url(./../assests/fuentes/Poppins-ExtraLight.ttf);
+}
+
+/* Sección home */
+.home{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #00B4E1;
+}
+
+.home__item{
+    margin-left: 150px;
+}
+
+.home__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.home__link--color{
+    text-decoration: none;
+    color: #40C7E9;
+    font-size: 15px;
+}
+
+.home__link--color:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-chevron-right{
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Img principal */
+.main__img{
+    max-width: 100%;
+}
+
+/* Iconos */
+.iconos{
+    max-width: 120px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.iconos__links--f{
+    text-decoration: none;
+    background-color:#004684d6 ;
+    color: #fff;
+    padding: 10px ;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.iconos__links--f:hover{
+    text-decoration: none;
+    background-color: #004684;
+    padding: 10px ;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.iconos__links--x{
+    text-decoration: none;
+    background-color:#239fddce;
+    color: #fff;
+    padding: 10px ;
+    padding-right: 14px;
+    padding-left: 15px;
+}
+
+.iconos__links--x:hover{
+    text-decoration: none;
+    background-color: #239FDD;
+    padding: 10px ;
+    padding-right: 14px;
+    padding-left: 15px;
+}
+
+/* sección regulations hub */
+.regulationshub{
+    margin-top: 10px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.regulationshub__title{
+    font-size: 30px;
+    font-weight: normal;
+    color: #002D5F;
+    margin-bottom: 20px;
+}
+
+.regulationshub__text{
+    font-size: 20px;
+    font-family: Poppinslight;
+    margin-bottom: 30px;
+    color: #002D5F;
+}
+
+.regulationshub__botons{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.regulationshub__boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 615px;
+    text-decoration: none;
+    background-color: #00B4E1;
+    padding: 30px;
+    color: #fff;
+    font-size: 25px;
+    background-image:linear-gradient(to right, rgba(0, 150, 255, 0.6), rgba(0, 200, 255, 0.6)), url(./../assests/imagenes/f126-botones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.regulationshub__boton:hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1 1 615px;
+    text-decoration: none;
+    background-color: #00a0c8;
+    padding: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* Imgs */
+.f126__imgs{
+    margin-top: 40px;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.f126__img{
+    width: 350px;
+    display: flex;
+    flex: 1 1 350px;
+}
+
+.f126__img--2{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1 1 1000px;
+    margin-bottom: 30px;
+}
