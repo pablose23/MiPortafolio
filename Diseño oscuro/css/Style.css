@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #404347;
+    background-image: url(../assets/images/fondo.gif);
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    color: #999;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 10px;    
+}
+.encabezado{
+    border-color:  #999;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+} 
+.cuerpo{
+    margin-top: 25px;
+}
+.caja1, .caja2{
+    display: inline-block;
+    vertical-align:top;
+    padding: 5px;
+}
+.caja2{
+    border-left:1px dotted;
+    height: 700px;
+}
+.estilos_hcaja1{
+    border-bottom:1px dotted;
+    padding: 5px;
+    width: 210px;
+}
+.estilo_lista{
+    color: #60C3DB;
+    list-style-type: none;
+    text-align: left;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.estilos_hcaja2{
+    border-bottom:1px dotted;
+    padding: 5px;
+    width: 320px;
+}
+.bordeimg1{
+    border: 1px solid #999;
+    width: 330px;
+    height: 200px;
+}
+.caja3{
+    display: inline-block;
+    text-align: justify;
+    width: 590px;
+    padding: 10px;
+    border-left:1px dotted;
+}
+.estilos_hcaja3{
+    border-bottom:1px dotted;
+    padding: 5px;
+    width: 580px;
+}
+.bordeimg2{
+    border: 1px solid #999;
+    width: 590px;
+    height: 275px;
+}
+.pie{
+    border-color:  #999;
+    border-top:1px dotted;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}

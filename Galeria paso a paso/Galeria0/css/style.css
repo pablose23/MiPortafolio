@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333; 
+    font-variant: small-caps;
+    font-family: "lcd", serif;
+    text-align: center;
+    font-weight: bold;
+}
+@font-face{
+    font-family: lcd; src: url(../assets/fuentes/lcd.TTF);
+}
+.container{
+    width: 1000px;
+    border: 2px solid #6D7866;
+    background-image: url(../assets/images/fondo1.jpg);
+    padding: 10px;
+    display:inline-block;
+}
+.cabecera{
+    background-color: #333333;
+    border-top: 2px solid #6D7866;
+    border-left: 2px solid #6D7866;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    color: #B5EB1A;
+    font-size: 35px;
+    text-align: center;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
+    margin-top: 20px;
+    background-color: #333333;
+    border-top: 2px solid #6D7866;
+    border-left: 2px solid #6D7866;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 315px ;
+    color: #6D7866;
+    display: inline-block;
+}
+.ajustefoto{
+    margin: 5px 5px 5px 5px;
+/*     padding: 5px; */
+    width: 290px ;
+    height: 200px;
+}
+.textoder{
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 0px auto;
+}

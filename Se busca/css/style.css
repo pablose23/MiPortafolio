@@ -1,0 +1,29 @@
+
+body {
+    background-image: url(./../assets/images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-color: rgb(51, 51, 51);
+    color: rgb(132, 0, 26);
+    font-family: "JFRingmaster";
+    font-style:normal;
+    text-align: center;
+    line-height: 6em;
+    
+    
+}
+@font-face {
+    font-family:"JFRingmaster";
+    src: url(./../assets/fonts/JFRingmaster.ttf) format("truetype");
+}
+.text {
+    font-size: 1.5em;
+    letter-spacing: 10%;
+}
+
+.text1 {
+    font-size: 1em;
+    
+}

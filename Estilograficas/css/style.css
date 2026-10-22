@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assests/images/fondo.png);
+    background-color: #2A2A2A;
+    font-size: 1.25rem;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.cabecera {
+    text-align: left;
+}
+.cuerpo{
+    background-image: url(../assests/images/fotopresentacion.jpg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    text-align: right;
+    height: 350px;
+    padding-right: 40px;
+    padding-top: 300px;
+}
+.pie{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #CE8217;
+}
+a:hover{
+text-decoration: underline;
+}

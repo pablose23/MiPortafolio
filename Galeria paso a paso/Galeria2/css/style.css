@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../assest/images/fondo3.jpg); 
+    font-variant: small-caps;
+    font-family: "donald", serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+@font-face{
+    font-family: donald; src: url(../assets/fuentes/donald.ttf);
+}
+.container{
+    width: 1000px;
+    padding: 10px;
+    display:inline-block;
+}
+.cabecera{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
+    margin-top: 20px;
+    width: 315px ;
+    color: #375809;
+    display: inline-block;
+}
+.ajustefoto{
+    margin: 5px 5px 5px 5px;
+/*     padding: 5px; */
+    width: 290px ;
+    height: 200px;
+}
+.textoder{
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 0px auto;
+}

@@ -1,0 +1,25 @@
+body {
+  color: #3B5998;
+  background-color: #d0d8e9;
+  background-image: url(./../assest/images/fondo.png);
+  background-repeat: repeat-x;
+  font-family: tahoma;
+  font-size: 0.85em;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+
+}
+
+div {
+  text-align: center;
+}
+
+a {
+  color: #3B5998;
+}

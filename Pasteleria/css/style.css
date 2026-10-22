@@ -1,0 +1,28 @@
+body {
+    background-color: #F7D1CF;
+    background-image: url(./../assets/images/fondo.jpg);
+    color : #5C6884;
+    font-family: "candycanematch", serif;
+    font-variant: small-caps;
+    
+}
+@font-face {
+    font-family: candycanematch;
+    src: url(./../assets/fonts/candycanematch.ttf) format("truetype");
+}
+div{
+    background-color: #F7D1CF;
+    text-align: center;
+    
+}
+.text1{
+    text-align: center;
+    font-style:italic 
+}
+.text{
+    text-align: right;
+}
+ol{
+    list-style-type: none;
+}
+

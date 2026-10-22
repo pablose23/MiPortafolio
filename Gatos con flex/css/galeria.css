@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #eaeaea;
+    font-family: "poppins";
+    font-size: 1.2rem;
+}
+@font-face {
+    font-family: poppins;
+    src: url(./../assests/fonts/poppins.ttf);
+}
+.cajamenu{
+    background-image: url(./../assests/images/fondomenu.jpg);
+    background-repeat: repeat-x;
+    padding: 15px;
+    display: block;
+}
+.menu{
+    font-variant: small-caps;
+    color: #535353;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 980px;
+}
+.enlacemenu{
+    text-decoration: none;
+    color: #535353;
+}
+.enlacemenu:hover{
+    text-decoration: underline;
+    color: #dd5533;
+}
+.container{
+    border: 1px solid red;
+    margin-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    color: #dd5533;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 0;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cajasgaleria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 392.5px;
+    height: 300px;
+    background-color: white;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+.ajustegaleria{
+    width: 325px;
+    height: 250px;
+    border-radius: 5px;
+}
+.subtitulo{
+    color: #dd5533;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+    padding-right: 50px;
+}

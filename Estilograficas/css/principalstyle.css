@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-size: 1.25rem;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.cabecera{
+    background-image: url(../assests/images/texto3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: right;
+    padding-right: 20px;
+    background-color: #2A2A2A;
+}
+.menu{
+    display: inline-block;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #c2c2c2;
+}
+a:hover{
+    font-weight: bold;
+    color: #CE8217;
+}
+.cuerpo{
+    margin: 0 auto;
+} 
+.caja1{
+    display: inline-block;
+    width: 195px;
+    margin: 0 auto;
+}
+.menu1{
+    display: block;
+    padding: 10px;
+}
+ol{
+    list-style-type: none;
+    padding: 20px;
+}
+.caja2{
+    display: inline-block;
+    vertical-align: top;
+}
+.ajustefoto{
+    width: 780px;
+    height: 381px;
+}
+.caja3{
+    display: inline-block;
+    width: 985px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0 auto;
+}
+.ajustefoto1{
+    height: 130px;
+    width: 191.10px;
+}

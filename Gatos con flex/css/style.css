@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./../assests/images/fondoindex.jpg);
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./../assests/fonts/poppins.ttf);
+}
+
+.container{
+    font-family: "poppins";
+}
+
+.cajon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: 170px;
+    margin-top: 220px;
+}
+.caja_boton{
+    background-color: #dd5533;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+    color: #eaeaea;
+    padding: 13px;
+    text-decoration: none;
+}
+.caja_boton:hover{
+    background-color: #eaeaea;
+    color: #dd5533;
+    border: 1px solid #dd5533;
+}

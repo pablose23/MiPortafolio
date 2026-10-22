@@ -1,0 +1,83 @@
+body{
+    /* border: 1px solid red; */
+    background-color: f7f7f7;
+    font: 6d6868;
+    font-variant: small-caps;
+    padding: 5px;
+    color: grey;
+}
+.header{
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+.arriba{ 
+    text-align: right;
+}
+.menu{
+    /* border: 1px solid red; */
+    background-color: eaeaea;
+    border-top: 5px dbdbdb;
+    border-bottom: 5px dbdbdb;
+    margin: 5px;
+}
+.caja1{
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-left: 25px;
+}
+.cuerpo{
+    /* border: 1px solid red; */
+   margin: 5px;
+}
+.cajafotos{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 5px;
+}
+.fotos{
+    height: 200px;
+    width: 210px;
+    margin: 7px 10px 2px;
+    display: inline-block;
+}
+.caja2{
+    /* border: 1px solid red; */
+    background-color: eaeaea;
+    border: 5px double whitesmoke;
+    margin: 5px;
+    padding: 10px;
+}
+.caja3{
+    /* border: 1px solid red; */
+    margin: 5px;
+    text-align: center;
+    
+}
+.cajon1, .cajon2, .cajon3{
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 7.5px;
+    width: 350px;
+    height: 223.5px;
+    text-align: justify;
+    display: inline-block;
+    
+}
+.conocenos, .servicios, .usuarios{
+    /* border: 1px solid red; */
+    width: 330px;
+    padding: 10px;
+    margin-top: 4px;
+}
+.fotomore{
+    text-align:right;
+}
+.footer{
+    /* border: 1px solid red; */
+    background-color: eaeaea;
+    border-top: 5px dbdbdb;
+    border-bottom: 5px dbdbdb;
+    margin: 5px;
+    text-align: right;
+    font-style: italic;
+}

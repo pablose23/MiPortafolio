@@ -1,0 +1,77 @@
+.contenedor {
+    margin: 0 auto;
+    height: 400px;
+    max-width: 500px;
+    background-color: steelblue;
+    display: flex; /*FOTO 1*/
+
+    /*flex-direction: column; /*FOTO 2*/
+
+    /*flex-direction: column; /*FOTO 3*/
+    /*justify-content: center; /*FOTO 3*/
+
+    /*flex-direction: column; /*FOTO 4*/
+    /*justify-content: flex-end; /*FOTO 4*/
+    /*align-items: end; /*FOTO 4*/
+
+    /* flex-wrap: wrap; /*FOTO 5 */
+
+    /*flex-wrap: wrap; /*FOTO 6*/
+    /*flex-direction: row-reverse; /*FOTO 6*/
+
+    /*flex-direction: column; /*FOTO 7*/
+    /*flex-wrap: wrap; /*FOTO 7*/
+    /*align-items: flex-end; /*FOTO 7 */
+
+    /*align-items: flex-end; /*FOTO 8*/
+    /*justify-content: space-evenly; /*FOTO 8*/
+
+    /*align-items: flex-end; /*FOTO 9*/
+    /*justify-content: space-evenly; /*FOTO 9*/
+    /* .caja2{
+    align-self: center; /*FOTO 9
+    } */
+
+    /*align-content: center; /*FOTO 10*/
+    /*justify-content: center; /*FOTO 10*/
+    /*flex-flow: row wrap; /*FOTO 10*/
+
+    /*justify-content: flex-start; /*FOTO 11*/
+    /*justify-content: center; /*FOTO 11*/
+    /*justify-content: space-between; /*FOTO 11*/
+    /*.caja1{
+        order:4;
+        }
+        .caja2{
+        order:5;
+        }
+        .caja3{
+        order:1;
+        }
+        caja4{
+        order:2;
+        }
+        .caja5{
+        order:3;
+        } */
+
+    /*flex-direction: column-reverse; /*FOTO 12*/
+    /*justify-content: space-between; /*FOTO 12*/
+    /*align-items: flex-end; /*FOTO 12*/ 
+    /* .caja2, .caja5{
+    align-self: center;
+    } */
+}
+
+.caja {
+    box-sizing: border-box;
+    color: gray;
+    background-color: orange;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-top: 1em;
+    margin: 2px;
+}

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: raleway;
+    src: url(./../assests/fonts/Raleway.ttf);
+}
+body{
+    font-family: "raleway" ;
+}
+
+.container{
+    width: 1079px;
+   margin: 0 auto;
+}
+.cuerpo{
+    text-align: center;
+    font-variant: small-caps;
+    border-bottom: 1px solid rgba(190, 195, 251, 0.979);
+}
+.titulo{
+    color: #5d9cec;
+    font-size: 2.5rem;
+    padding: 15px;
+    border-bottom: 1px solid rgba(190, 195, 251, 0.979);
+}
+.caja{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.cajafoto{
+    padding: 25px;
+    border-right: 1px solid rgba(190, 195, 251, 0.979);
+}
+.ajustefoto{
+    width: 550px;
+}
+.cajaboton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 50px;
+}
+.boton{
+    font-size: 1.75rem;
+    font-weight: bold;
+    background-color: #5d9cec;
+    color: white;
+    padding: 23px;
+    text-decoration: none;
+    border: 1px solid rgba(190, 195, 251, 0.979);
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #01459eb7;
+}

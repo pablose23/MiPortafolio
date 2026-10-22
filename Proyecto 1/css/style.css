@@ -1,0 +1,19 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  color: #4472C4;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+p {
+  text-align: justify;
+}
+
+small>p {
+  text-align: right;
+}

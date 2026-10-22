@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaeaea;
+    font-family: "poppins";
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./../assests/fonts/poppins.ttf);
+}
+
+.cajamenu{
+    background-image: url(./../assests/images/fondomenu.jpg);
+    background-repeat: repeat-x;
+    padding: 15px;
+    display: block;
+}
+.menu{
+    font-variant: small-caps;
+    color: #535353;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 980px;
+}
+.enlacemenu{
+    text-decoration: none;
+    color: #535353;
+}
+.enlacemenu:hover{
+    text-decoration: underline;
+    color: #dd5533;
+}
+.contenedor{
+    border: 1px solid red;
+    margin-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.cuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+.cajon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caja1{
+    border-top:1px solid #dd5533;
+    padding: 25px;
+    width: 850px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+.ajustefotos{
+    width: 100%;
+    height: 300px;
+}
+.titulotexto{
+    color: #dd5533;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 0;
+}
+.texto{
+    color: #535353;
+    text-align: justify;
+}
+.cajaboton{
+    display: flex;
+    justify-content: end;
+}
+.boton{
+    background-color: #dd5533;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.enlace1{
+    text-decoration: none;
+    color:#eaeaea;
+    display: block;
+}
+.enlace1:hover{
+    text-decoration: underline;
+    color:#eaeaea;
+}
+.cajon2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cajas2{
+    border-top:1px solid #dd5533;
+    padding: 25px;
+    width: 300px;
+    background-color: white;
+}
+.ajustefotos2{
+    width: 100%;
+}

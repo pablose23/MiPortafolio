@@ -1,0 +1,44 @@
+ * {
+     box-sizing: border-box;
+ }
+
+
+
+
+ /*  body{
+    background-color: rgb(208, 216, 255);
+    background-image:url("./../assets/images/maquina1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto;
+    margin: 0;
+    
+} */
+
+ body {
+
+ }
+ .container {
+     border: 1px solid red;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+.cajas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.caja{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 250px;
+    box-shadow: inset 1px 1px 50px grey;
+    height: 350px;
+    
+}

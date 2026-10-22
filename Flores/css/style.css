@@ -1,0 +1,22 @@
+body {
+	background-color: #9EB0DA;
+	/* background-image: url("../imagenes/032.gif"); */
+	/* background-image: url("../imagenes/fondoflores.gif"); */
+	/* background-image: url("../imagenes/margaritas.jpg"); */
+	color: #000080;
+	/* color: #EA5B5F; */
+	/* color: #033317; */
+	text-align: justify;
+	font-weight: 600;
+}
+
+h1 {
+	text-align: center;
+}
+
+div a {
+	text-decoration: none;
+	color: #000080;
+	/* color: #EA5B5F; */
+	/* color: #033317; */
+}
